@@ -7,6 +7,13 @@
   <title>Laravel Primi Passi</title>
 </head>
 <body>
+  <div>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/chi">About</a></li>
+    </ul>
+  </div>
   <h1>Hello {{ $utente }}</h1>
+  <p>{{ $sottotitolo }}</p>
 </body>
 </html>

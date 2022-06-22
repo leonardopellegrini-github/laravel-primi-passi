@@ -16,8 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
 
     $data = [
-        'utente' => 'Quello che vuoi'
+        'utente' => 'Quello che vuoi',
+        'sottotitolo' => 'Questo è un sottotitolo'
     ];
 
     return view('home', $data);
+});
+
+Route::get('/chi', function () {
+
+    return view('chi');
+
 });
